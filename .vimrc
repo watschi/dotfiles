@@ -1,10 +1,11 @@
 " Settings only or home use, comment out where no plugins should be installed
 source ~/.vim/plugins.vim
-source ~/.vim/homesettings.vim
 
 " Set leader to ','
 let mapleader = ","
 let g:mapleader = ","
+
+source ~/.vim/homesettings.vim
 
 " Set how many lines of history VIM has to remember
 set history=500

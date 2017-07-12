@@ -9,9 +9,9 @@ vim -u plugins.vim +BundleInstall +qall
 
 # Link all needed files to the homedirectory
 rm ~/.vimrc
-ln -s ../.vimrc ~/.vimrc
-ln -s plugins.vim ~/.vim/plugins.vim
-ln -s homesettings.vim ~/.vim/homesettings.vim
+ln -rs ../.vimrc ~/.vimrc
+ln -rs plugins.vim ~/.vim/plugins.vim
+ln -rs homesettings.vim ~/.vim/homesettings.vim
 
 # Create undodir
 mkdir -p ~/.vim/undo

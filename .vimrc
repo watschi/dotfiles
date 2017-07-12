@@ -1,6 +1,6 @@
 " Settings only or home use, comment out where no plugins should be installed
 source ~/.vim/plugins.vim
-source /home/vagrant/.vim/homesettings.vim
+source ~/.vim/homesettings.vim
 
 " Set leader to ','
 let mapleader = ","

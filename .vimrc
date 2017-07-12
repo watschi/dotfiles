@@ -101,14 +101,6 @@ set si
 " Set default clipboard to system
 set clipboard=unnamed
 
-" Indent with >/<
-vmap <leader>> >gv
-vmap <leader>< <gv
-nmap <leader>> >>
-nmap <leader>< <<
-
-
-
 function! CmdLine(str)
     exe "menu Foo.Bar :" . a:str
     emenu Foo.Bar
@@ -218,4 +210,4 @@ if has("win32")
 
   inoremap <Char-0x07F> <BS>
   nnoremap <Char-0x07F> <BS>
-endif
+    endif

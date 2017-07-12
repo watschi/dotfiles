@@ -211,4 +211,4 @@ if has("win32")
 
   inoremap <Char-0x07F> <BS>
   nnoremap <Char-0x07F> <BS>
-    endif
+endif

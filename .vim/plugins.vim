@@ -13,6 +13,7 @@ Plugin 'sickill/vim-pasta'
 Plugin 'ervandew/supertab'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-surround'
+Plugin 'PProvost/vim-ps1'
 
 " Colorschemes
 Plugin 'tomasr/molokai'

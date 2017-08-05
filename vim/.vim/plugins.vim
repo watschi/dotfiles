@@ -14,6 +14,9 @@ Plugin 'ervandew/supertab'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-surround'
 Plugin 'PProvost/vim-ps1'
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
+Plugin 'suan/vim-instant-markdown'
 
 " Colorschemes
 Plugin 'tomasr/molokai'

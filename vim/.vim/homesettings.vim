@@ -30,5 +30,5 @@ catch
 endtry
 
 " powerline settings
-set rtp+=/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim/
+set rtp+=~/.local/lib/python3.6/site-packages/powerline/bindings/vim/
 

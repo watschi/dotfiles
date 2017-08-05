@@ -8,3 +8,6 @@ Vim stuff mostly stolen from:
 - [thoughtbot's dotfiles](https://github.com/thoughtbot/dotfiles)
 
 The colorscheme used is [molokai](https://github.com/tomasr/molokai)
+
+To install vim configuration and plugins run:  
+`vim/.vim/install.sh [-y]`

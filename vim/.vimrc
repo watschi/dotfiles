@@ -130,8 +130,8 @@ endfunction
 vnoremap <silent> * :<C-u>call VisualSelection('', '')<CR>?<C-R>=@/<CR><CR>
 vnoremap <silent> # :<C-u>call VisualSelection('', '')<CR>/<C-R>=@/<CR><CR>
 
-" When you press <leader>f you can search and replace the selected text
-vnoremap <silent> <leader>f :call VisualSelection('replace', '')<CR>
+" When you press <leader>r you can search and replace the selected text
+vnoremap <silent> <leader>r :call VisualSelection('replace', '')<CR>
 
 " Map <Space> to / (search) and Ctrl-<Space> to ? (backwards search)
 map <space> /
@@ -157,7 +157,7 @@ nnoremap <silent> <leader>- :exe "resize -5"<cr>
 nnoremap <silent> <leader>0 <C-W>=
 
 " Close all windows but the current one
-nnoremap <silent> <leader>c <C-W>o
+nnoremap <silent> <leader>q <C-W>o
 
 " New splits get opened on the right/below
 set splitbelow

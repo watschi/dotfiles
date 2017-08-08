@@ -1,0 +1,49 @@
+{
+    "workbench.colorTheme": "Monokai Dimmed",
+
+    // PowerShell
+
+    // Prompt color for integrated Console for Monokai Dimmed
+    // https://github.com/PowerShell/vscode-powershell/issues/637
+    "workbench.colorCustomizations": 
+    {
+    "terminal.ansiBlack": "#1E1E1E"
+    },
+    "powershell.codeFormatting.alignPropertyValuePairs": true,
+    "powershell.codeFormatting.newLineAfterCloseBrace": true,
+    "powershell.codeFormatting.newLineAfterOpenBrace": true,
+    "powershell.codeFormatting.openBraceOnSameLine": true,
+    "powershell.codeFormatting.ignoreOneLineBlock": false,
+    "powershell.codeFormatting.whitespaceAfterSeparator": true,
+    "powershell.codeFormatting.whitespaceAroundOperator": true,
+    "powershell.codeFormatting.whitespaceBeforeOpenBrace": true,
+    "powershell.codeFormatting.whitespaceBeforeOpenParen": true,
+    "powershell.enableProfileLoading": false,
+    "powershell.integratedConsole.showOnStartup": true,
+    "powershell.integratedConsole.focusConsoleOnExecute": true,
+    "powershell.scriptAnalysis.enable": true,
+    "powershell.startAutomatically": true,
+
+    // Editor
+    "editor.acceptSuggestionOnEnter": "smart",
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.tabSize": 4,
+    "editor.renderWhitespace": "boundary",
+    "editor.cursorStyle": "line",
+    "editor.insertSpaces": true,
+    "editor.lineNumbers": "on",
+    "editor.detectIndentation": true,
+    "editor.roundedSelection": false,
+    "editor.scrollBeyondLastLine": true,
+    "editor.minimap.enabled": true,
+    "editor.minimap.renderCharacters": false,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "editor.autoIndent": true,
+    "editor.renderControlCharacters": true,
+    "editor.renderIndentGuides": true,
+    "editor.renderLineHighlight": "gutter",
+    "editor.matchBrackets": true,
+    "editor.trimAutoWhitespace": true,
+    "editor.dragAndDrop": false
+}

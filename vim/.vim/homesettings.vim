@@ -10,10 +10,9 @@ set relativenumber
 " Return to last edit position when opening files
 au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 
-" Set molokai colorscheme
-let g:molokai_original = 1
-let g:rehash256 = 1
-colorscheme molokai
+" Set colorscheme
+set termguicolors
+colorscheme gruvbox
 
 " NERDtree plugin settings
 map <leader>t :NERDTreeToggle<CR>
@@ -40,5 +39,9 @@ map <leader>ft :TableFormat<CR>:Tabularize<CR>
 map <leader>c :Toc<CR>
 
 " Powerline settings
-set rtp+=~/.local/lib/python3.6/site-packages/powerline/bindings/vim/
-
+" set rtp+=~/.local/lib/python3.6/site-packages/powerline/bindings/vim/
+let g:airline_powerline_fonts = 1
+let g:airline_theme='gruvbox'
+let g:gruvbox_number_column='bg1'
+let g:gruvbox_italic='1'
+let g:gruvbox_contrast_dark='normal'

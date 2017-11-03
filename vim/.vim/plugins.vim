@@ -17,9 +17,11 @@ Plugin 'PProvost/vim-ps1'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'suan/vim-instant-markdown'
+Plugin 'vim-airline/vim-airline'
 
 " Colorschemes
 Plugin 'tomasr/molokai'
+Plugin 'morhetz/gruvbox'
 
 call vundle#end()            " required
 filetype plugin indent on    " required

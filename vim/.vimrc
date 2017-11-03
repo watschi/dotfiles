@@ -122,7 +122,7 @@ function! VisualSelection(direction, extra_filter) range
     endif
 
     let @/ = l:pattern
-    let @" = l:saved_reg
+ h  let @" = l:saved_reg
 endfunction
 
 " Visual mode pressing * or # searches for the current selection
@@ -170,7 +170,7 @@ endif
 map <leader>ll :set cursorline!<cr>
 map <leader>lc :set cursorcolumn!<cr>
 
-" Scroll the viewport faster
+" Scroll 3 lines instead of one with <C-e>/<C-y>
 nnoremap <C-e> 3<C-e>
 nnoremap <C-y> 3<C-y>
 
@@ -212,3 +212,6 @@ if has("win32")
   inoremap <Char-0x07F> <BS>
   nnoremap <Char-0x07F> <BS>
 endif
+
+" Set transparent background
+hi Normal guibg=NONE ctermbg=NONE
